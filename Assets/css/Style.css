@@ -1,88 +1,31 @@
 <style>
-    
-* {
+  *{
     box-sizing: border-box;
     text-align: center;
   }
-  
-  body {
-    font-size: 24px;
-    line-height: 32 px;
-    color: #333;
+  h1{
+    float: left;
+    font-family: "Arial, Helvetica, sans-serif";
+    background: teal
   }
-  
-  header {
+  head{
+    color: white;
+    background-color: teal;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
     padding: 20px;
     margin-bottom: 20px;
-    color: #ebebeb;
-    background: #ccc;
   }
-  
-  section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #ccc;
-  
+  footer{
+    text-align: center;
+    background-color: #666666; 
   }
-  
-  #left {
+  div{
     float: left;
-    width: 33.3%;
-    background: #666;
-    color: white;
+    border-image: 15%
   }
-  
-  #middle {
-    float: left;
-    background: #888;
-    color: white;
-    width: 33.3%;
-  }
-  
-  #right {
-    float: left;
-    width: 33.3%;
-    background: #666;
-    color: white;
-  
-  }
-  
-  #full {
-    width: 100%;
-    overflow: auto;
-    clear: both;
-    background: #eee;
-  
-  }
-  
-  #division {
-    padding: 20px;
-    margin-top: 20px;
-    background:#6ea3da
-  }
-  
-  aside {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    border: 1px solid #eee;
-    background: #fff;
+  section{
+    
+    
   }
 
-  img {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-  }
-  
-  footer {
-    padding: 20px;
-    clear: both;
-    background: #ccc;
-  }
-  
 </style>
